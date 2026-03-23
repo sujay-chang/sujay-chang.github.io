@@ -16,7 +16,7 @@ EMAIL;TYPE=INTERNET,PREF:
 EMAIL;TYPE=INTERNET,WORK:
 
 
-PHOTO;TYPE=JPG;VALUE=URI:https://example.org/img/Tech.png
+PHOTO;TYPE=JPG;VALUE=URI:https://sujay-chang.github.io/img/Tech.png
 
 
 ORG:Teaching Assistant
@@ -25,6 +25,6 @@ ORG:Teaching Assistant
 TITLE:
 
 
-URL:https://example.org/
+URL:https://sujay-chang.github.io/
 
 END:VCARD
