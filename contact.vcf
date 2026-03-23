@@ -1,0 +1,30 @@
+
+BEGIN:VCARD
+VERSION:4.0
+
+
+N:Chang;Shujie;;;
+FN:Shujie Chang
+
+
+TEL;TYPE=WORK,VOICE:1-341-766-9684
+
+
+EMAIL;TYPE=INTERNET,PREF:
+
+
+EMAIL;TYPE=INTERNET,WORK:
+
+
+PHOTO;TYPE=JPG;VALUE=URI:https://example.org/img/Tech.png
+
+
+ORG:Teaching Assistant
+
+
+TITLE:
+
+
+URL:https://example.org/
+
+END:VCARD
