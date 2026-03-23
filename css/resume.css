@@ -69,13 +69,17 @@ h2 {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
   text-transform: uppercase;
-  color: #333 !important; /* 改为深灰色或黑色 */
+  color: #ffffff !important; /* 改为深灰色或黑色 */
+  letter-spacing: 0.05rem;
+  transition: all 0.3s ease;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link:hover {
-  color: #007bff !important; /* 悬停时显示你之前喜欢的标准蓝 */
+  color: #ffc107 !important; /* 悬停时显示你之前喜欢的标准蓝 */
+  background-color: rgba(255, 255, 255, 0.1); /* 淡淡的背景色块 */
 }
 
 @media (min-width: 992px) {
@@ -95,9 +99,10 @@ h2 {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.3rem solid rgba(255, 255, 255, 0.2);
+    /*border-radius: 4px !important;  !* 4px 微圆角比纯直角更有高级感 *!*/
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -122,6 +127,9 @@ section.resume-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
+  /* 添加下面这两行 */
+  max-width: 100% !important;
+  width: 100%;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -133,7 +141,7 @@ section.resume-section .resume-item .resume-date {
     min-height: 100vh;
   }
   section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
+    /*min-width: 18rem;*/
   }
 }
 
@@ -145,7 +153,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #add8e6 !important;
+  background-color: #007bff !important;
 }
 
 .text-primary {
@@ -153,10 +161,10 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #BD5D38;
+  color: #007bff;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #0056b3;
 }
 
